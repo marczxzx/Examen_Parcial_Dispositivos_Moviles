@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/welcomeFragment">
+
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.example.juegodecolores.ui.welcome.WelcomeFragment"
+        android:label="Welcome" >
+        <action
+            android:id="@+id/action_welcome_to_game"
+            app:destination="@id/gameFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.example.juegodecolores.ui.game.GameFragment"
+        android:label="Game" >
+        <action
+            android:id="@+id/action_game_to_result"
+            app:destination="@id/resultFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.example.juegodecolores.ui.result.ResultFragment"
+        android:label="Result" />
+</navigation>

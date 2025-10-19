@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Juego de Colores</string>
+    <string name="start_game">Iniciar juego</string>
+    <string name="welcome_title">Juego de Colores</string>
+    <string name="welcome_rules">Reglas:\n- Tienes 30 segundos.\n- Presiona el botón del color que aparece.\n- Cada acierto suma 1 punto.\n¡Suerte!</string>
+    <string name="play_again">Volver a jugar</string>
+    <string name="score">Puntaje: %1$d</string>
+    <string name="time_left">Tiempo: %1$d s</string>
+    <string name="final_score">Puntaje final: %1$d</string>
+    <string name="best_score">Mejor puntaje: %1$d</string>
+</resources>
